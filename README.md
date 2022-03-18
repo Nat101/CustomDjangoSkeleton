@@ -1,5 +1,7 @@
 # CustomDjangoSkeleton
 
+* Note: This project is in progress and not all features have been added.
+
 
 ## Table of contents
 * [General info](#general-info)
