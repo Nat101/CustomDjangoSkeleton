@@ -1,0 +1,20 @@
+#Enviroment Variables Template
+#This template is for displaying the variables used in this Django project.  
+#The actual environment file has been added to .gitignore to protect the secret keys
+
+#Note: all variable are stored as strings, and must be type cast later in the python file as needed
+#keep as string: config("variable")
+#to int: config("variable", cast=int)
+#to list: variable=one two three (note: space is delimiter) config("variable").split()
+
+#Project settings
+SECRET_KEY=
+DEBUG=True
+ALLOWED_HOSTS=.localhost, 127.0.0.1
+
+#Database settings
+DBENGINE=django.db.backends.postgresql
+DBNAME=
+DBUSER=
+DBPASSWORD=
+DBHOST=localhost

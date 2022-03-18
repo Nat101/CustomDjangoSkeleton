@@ -1,0 +1,54 @@
+
+body {
+	height: 100%;
+}
+
+footer {
+	height: 60px;
+	padding: 15px 0;
+	background-color: #e9ecef;
+	position: relative;
+}
+
+.navbar-brand {
+	font-family: 'Copperplate', 'Lucida Console', fantasy;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px 15px 3px 15px;
+    text-align: center;
+    color: black;
+    margin: auto;
+}
+
+th {
+	text-align: center;
+    background-color: black;
+	color: white;
+}
+
+/* Sticky Tables */
+.tableRelative{
+	position: relative;
+	background-color: white;
+}
+.theadSticky .thSticky{
+	/* Pin header on scroll up/down */
+	position: sticky; 
+  	top: 0;
+  	z-index: 1;
+}
+
+.push {
+	height: 60px;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+}

@@ -1,0 +1,39 @@
+{% extends 'UserManagement/loggedInBase.html' %}
+
+{% load static %}
+{% load customTags %}
+
+{% block breadcrumb %}
+	<li class="breadcrumb-item active">Django Custom Security Home</li>
+{% endblock %} 
+
+{% block content %}
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			
+	
+			<div class="col-sm">
+
+				<div class="row justify-content-center">
+					<h5>General Access</h5>
+				</div>
+				<br>
+				
+
+
+				<div class="row justify-content-center">
+					<h5>Restricted Access</h5>
+				</div>
+				<br>
+				
+			</div>
+		
+		</div>
+	</div>
+			
+{% endblock %}

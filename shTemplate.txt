@@ -1,0 +1,43 @@
+
+######processTaskSingleCron.sh
+
+#!/bin/sh
+
+#This shell script checks to see if the subprocess "process_tasks --queue SingleProcess" is running.
+#If not running, execute
+
+if [ ! $(pgrep -f "process_tasks --queue SingleProcess") ]; then
+
+        cd typePathToProjectHere
+        typePathToProjectHere/venv/bin/typePythonVersionHere(ie: python3.8) typePathToProjectHere/typeProjectNameHere/manage.py process_tasks --queue SingleProcess
+        exit 1
+
+else
+        exit 1
+fi
+exit 1
+
+
+
+
+######processTasksMultiCron.sh
+
+
+
+#!/bin/sh
+
+#This shell script checks to see if the subprocess "process_tasks --queue MultiProcess" is running.
+#If not running, execute
+
+if [ ! $(pgrep -f "process_tasks --queue MultiProcess") ]; then
+
+        cd typePathToProjectHere
+        typePathToProjectHere/venv/bin/typePythonVersionHere(ie: python3.8) typePathToProjectHere/typeProjectNameHere/manage.py process_tasks --queue MultiProcess
+        exit 1
+
+else
+        exit 1
+fi
+exit 1
+
+

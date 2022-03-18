@@ -1,0 +1,7 @@
+<h3>We are Sorry...</h3>
+<h5>The page you're trying to access could not be found.</h5>
+{% if exception %}
+    <h5>{{ exception }}</h5>
+{% endif %}
+
+<a href="{% url 'Home' %}"> Return to Home Page </a>

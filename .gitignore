@@ -1,3 +1,18 @@
+#taskCronSh
+tasksCron.sh
+processTasksSingleCron.sh
+processTasksMultiCron.sh
+updateAIHFundamentalStatusCron.sh
+
+#uploads folder
+uploads/
+
+#migrations
+0*.py
+
+#Mac
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
